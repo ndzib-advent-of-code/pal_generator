@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="">
+    <p id="status" class="status">
+       Color <span id="copiedColor"></span> copied to your clipboard 
+    </p>
+
+    <h1 class="name">Color pallette generator</h1>
+
+    <section class="colors">
+        <button class="color-card cpt">
+            <div class="color"></div>
+            <div class="code">
+                GGZZ TP
+            </div>
+        </button>
+
+        <button class="color-card cpt">
+                    <div class="color"></div>
+                    <div class="code">
+                        GGZZ TP
+                    </div>
+        </button>
+
+        <button class="color-card cpt">
+                            <div class="color"></div>
+                            <div class="code">
+                                GGZZ TP
+                            </div>
+        </button>
+
+        <button class="color-card cpt">
+                                    <div class="color"></div>
+                                    <div class="code">
+                                        GGZZ TP
+                                    </div>
+        </button>
+
+        <button class="color-card cpt">
+                    <div class="color"></div>
+                    <div class="code">
+                        GGZZ TP
+                    </div>
+        </button>
+    </section>
+
+    <section class="actions">
+        <div class="essential">
+            <button id="generate" class="generate">Generate palette</button>
+            <p class="hint">Or just press the 'Spacebar' key to generate new patterns</p>
+        </div>
+
+        <button id="copy" class="copy cpt">Click to copy individual color . Press "C" to copy pallete</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
